@@ -51,7 +51,7 @@ const UIShell = (props: { history: any }) => {
             button
             key={text}
           >
-            <ListItemText primary={text.toUpperCase} />
+            <ListItemText primary={text.toUpperCase()} />
           </ListItem>
         ))}
       </List>

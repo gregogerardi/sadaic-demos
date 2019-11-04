@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 import { UIShell } from './components/UIShell';
 import { Home } from './components/Home';
 import { Artists } from './components/Artists';
@@ -30,7 +30,7 @@ export const App: React.FC = () => {
             <Redirect to='/' />
           </Switch>
         </div>
-        <Footer/>
+        <Footer />
       </Router>
     </div>
   );
